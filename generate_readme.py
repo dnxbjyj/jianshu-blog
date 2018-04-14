@@ -1,5 +1,5 @@
 # coding:utf-8
-# 生成简书博客的目录结构，并添加至顶层的README.md文件夹中
+# 生成简书博客的目录结构，并把生成的目录结构内容添加至顶层的README.md文件中
 from __future__ import unicode_literals
 import os
 import urlparse
