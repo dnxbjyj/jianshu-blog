@@ -86,10 +86,12 @@ def main():
     MD = MarkdownUtil()
     with open('tmp_readme.txt','w+') as readme:
         # 写入我的简书的基本信息
-        readme.write(MD.enter(MD.head(u'我的简书技术博客文章同步'),2))
-        readme.write(MD.enter(MD.head(u'博客信息',3),2))
-        readme.write(MD.enter(MD.item(MD.link(u'我的简书首页','https://www.jianshu.com/u/c398cdabbd5c'))))
-        readme.write(MD.enter(MD.item(u'我的简书用户名：m2fox'),2))
+        readme.write(MD.enter(MD.head('我的简书技术博客文章同步'),2))
+        readme.write(MD.enter(MD.bold('注：本文件的全部内容（包括现在的这一行文字）都是由当前目录下的generate_readme.py脚本自动生成。'),2))
+        readme.write(MD.enter(MD.head('博客信息',3),2))
+        readme.write(MD.enter(MD.item(MD.link('我的简书首页','https://www.jianshu.com/u/c398cdabbd5c'))))
+        readme.write(MD.enter(MD.item('我的简书用户名：m2fox'),2))
+        
         
         # 写入博客文章的目录列表
         readme.write(MD.enter(MD.head(u'目录概览',3),2))
