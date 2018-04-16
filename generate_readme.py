@@ -99,7 +99,7 @@ class MarkdownUtil(object):
 
 def generate_copyright():
     MD = MarkdownUtil()
-    statement = '版权声明：本仓库的所有文章来源于m2fox的简书（{jianshu_link}）文章，版权归本人所有，转载请注明出处为本仓库地址（{from_}），禁止用于任何商业目的。'.format(jianshu_link = MD.link('jianshu.com','https://www.jianshu.com',0),from_ = MD.link('github.com/dnxbjyj/blog','https://github.com/dnxbjyj/blog',0))
+    statement = '版权声明：本仓库的所有文章来源于m2fox的简书（{jianshu_link}）文章，版权归本人所有，转载请注明出处为本仓库地址（{from_}），禁止用于任何商业目的。'.format(jianshu_link = MD.link('主页地址','https://www.jianshu.com/u/c398cdabbd5c',0),from_ = MD.link('github.com/dnxbjyj/blog','https://github.com/dnxbjyj/blog',0))
     return MD.refer(statement,2)
         
 def main():

@@ -1,5 +1,5 @@
 ## 我的简书技术博客文章同步
-> 版权声明：本仓库的所有文章来源于m2fox的简书（[jianshu.com](https://www.jianshu.com)）文章，版权归本人所有，转载请注明出处为本仓库地址（[github.com/dnxbjyj/blog](https://github.com/dnxbjyj/blog)），禁止用于任何商业目的。
+> 版权声明：本仓库的所有文章来源于m2fox的简书（[主页地址](https://www.jianshu.com/u/c398cdabbd5c)）文章，版权归本人所有，转载请注明出处为本仓库地址（[github.com/dnxbjyj/blog](https://github.com/dnxbjyj/blog)），禁止用于任何商业目的。
 
 **注：本文件的全部内容（包括现在的这一行文字）都是由当前目录下的generate_readme.py脚本自动生成。**
 
